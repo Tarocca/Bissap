@@ -22,4 +22,5 @@ Projet de compte rendu des actions menées à bien lors des journées sous fichier 
 Les actions d’une personne seront précédée par son nom.
 Installation de Smartgit et prise en main
 Installation de Ganttproject et prise en main
+retry
 
