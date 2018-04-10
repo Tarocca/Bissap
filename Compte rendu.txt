@@ -1,0 +1,25 @@
+Compte Rendu de projet
+03/04
+Démarrage de l’analyse
+Reformulation du sujet
+Téléchargement et prise en main de Papyrus
+Premier jet du diagramme des cas d’utilisation( trop léger)
+Réécriture papier du dit diagramme
+
+09/04
+Matinée
+Deuxième jet du diagramme des cas d’utilisation(trop de liens)
+Démarrage du diagramme des classes
+ Après-midi
+Finalisation du diagramme des classes 
+Finalisation du diagramme des cas d’utilisation
+Démarrage du diagramme de séquence
+Démarrage du diagramme d’activité
+
+10/04
+Matin
+Projet de compte rendu des actions menées à bien lors des journées sous fichier texte pouvant être mis à jour grâce à git hub
+Les actions d’une personne seront précédée par son nom.
+Installation de Smartgit et prise en main
+Installation de Ganttproject et prise en main
+
