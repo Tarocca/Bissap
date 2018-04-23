@@ -35,7 +35,10 @@
             <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
         </taskproperties>
         <task id="0" name="Analyse UML" color="#8cb6ce" meeting="false" start="2018-04-03" duration="7" complete="0" thirdDate="2018-04-02" thirdDate-constraint="0" expand="true"/>
-        <task id="5" name="tâche_5" meeting="false" start="2018-04-02" duration="1" complete="0" expand="true"/>
+        <task id="5" name="Structure Base de donnée" color="#8cb6ce" meeting="false" start="2018-04-21" duration="2" complete="0" thirdDate="2018-04-21" thirdDate-constraint="0" expand="true"/>
+        <task id="10" name="Préparation des classes" color="#8cb6ce" meeting="false" start="2018-04-10" duration="4" complete="0" thirdDate="2018-04-02" thirdDate-constraint="0" expand="true"/>
+        <task id="11" name="Mise en place du GIT" meeting="false" start="2018-04-02" duration="1" complete="0" expand="true"/>
+        <task id="6" name="Vacances" color="#8cb6ce" meeting="false" start="2018-04-14" duration="7" complete="0" thirdDate="2018-04-02" thirdDate-constraint="0" expand="true"/>
         <task id="3" name="Préparation" color="#ff0000" meeting="false" start="2018-04-03" duration="7" complete="0" thirdDate="2018-03-29" thirdDate-constraint="0" expand="true"/>
     </tasks>
     <resources>
