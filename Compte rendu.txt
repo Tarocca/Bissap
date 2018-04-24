@@ -27,6 +27,9 @@ Priscillia: Mise en ligne des diagramme de classe et de sequence
 21/04
 Priscillia:Création des tables de la base de données
 	   Recherches sur le SQL
+24/04
+Priscillia:Création de quelques classes
+	   Ecriture des requêtes SQL
 
 
 
