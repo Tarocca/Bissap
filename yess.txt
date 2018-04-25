@@ -1,2 +1,0 @@
-Test GIT N°1 Premier commit
-Linux-KDE
