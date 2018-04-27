@@ -1,0 +1,14 @@
+package proj;
+
+public class Recette {
+  
+	public int dureeCuisson;
+	public String Description;
+	public <List> Listquantite();
+	public 
+	public
+	public
+	public
+	
+	 
+}
