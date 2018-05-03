@@ -1,0 +1,12 @@
+package proj;
+
+public class Carte {
+	
+	public void AfficherCarte() {
+		
+	}
+	public void Commander() {
+		
+	}
+
+}
