@@ -1,0 +1,24 @@
+Test GIT N°1 Premier commit
+Linux-KDE
+LES REQUÊTES SQL PAR FONCTION SUPPOSÉES:
+
+
+CALORIE
+On suppose la recette définie comme rec
+
+
+SELECT id_recette FROM recette WHERE recette.nom='rec'
+
+
+on sauvegarde la valeur sous le nom id
+
+
+SELECT sum(stock.calorie*ingredient.quantite) 
+FROM ingredient,stock 
+WHERE recette.id_recette=id 
+AND stock.id=ingredient.id_ingredient
+
+CREER RECETTE
+
+
+

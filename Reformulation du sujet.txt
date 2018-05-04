@@ -1,0 +1,7 @@
+On souhaite créer un programme capable de gerer une base de données sql qui contiendrais les Stocks alimentaires d'une chaîne de restaurant, les menus,plats et recettes liées au menu de la dite chaine de restaurant.
+L'application permettra de creer un plat,une recette, un menu, une carte et de les supprimer. De savoir si une recette est disponible, d'ajouter les ingredients aux stock de retirer les ingrédients utilisés lorsqu'une reccette est commandée et de savoir dans quels stocks sont les ingrédients.Si le temps le permet on envisagera une interface graphique.
+Les hypothèses:
+-Les recettes utilise un type d'ingrédient dans un conditionnement précis
+-Le singrédients frais n'ont pas de date de péremption
+-Les commandes ne peuvent-être annulées
+-Si l'ont stocke les ingrédients séparément selon leur conditionnement et les paquets ajouté l'application renseigne surtout les quantité totale d'ingrédient par conditionnement restant. La gestion des suppression des stocks pourra être manuelle.

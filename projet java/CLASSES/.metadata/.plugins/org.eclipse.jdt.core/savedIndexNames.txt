@@ -1,0 +1,3 @@
+INDEX VERSION 1.131+/root/Documents/GIT/projet java/CLASSES/.metadata/.plugins/org.eclipse.jdt.core
+4143688772.index
+3668204000.index
