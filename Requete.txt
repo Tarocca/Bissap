@@ -1,0 +1,43 @@
+﻿Test GIT N°1 Premier commit
+Linux-KDE
+REQUETES SQL PAR FONCTION
+
+CATEGORIE RECETTE
+CALCUL_DES_CALORIES()
+La requette demande une saisie utilisateur
+
+SELECT recette.id 
+FROM recette 
+WHERE recette.nom='saisie utilisateur'
+
+Stockage du résultat de la requête dans une variable recid
+
+SELECT sum(stock.calories*ingredients.quantites) 
+FROM stock,ingredients 
+WHERE id.recette=recid AND stock.id-ingredient=ingredient.id
+
+Stockage de la variable obtenue.
+
+VOIR_RECETTE()
+ici id_recette supposé connu sous la variable recid
+SELECT description, duree_prep,difficulte 
+FROM recette 
+WHERE recette.id=recid
+
+DISPONIBILITE()
+
+CATEGORIE CARTE
+AFFICHER_CARTE()
+SELECT recette.nom FROM recette
+
+COMMANDER()
+
+CATEGORIE PLAT
+AFFICHER_PLAT()
+SELECT recette.nom WHERE recette.id=recit
+
+CATEGORIE STOCK
+QUANTITE()
+
+
+
