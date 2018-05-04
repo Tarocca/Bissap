@@ -1,5 +1,7 @@
 package proj;
 
+import java.sql.PreparedStatement;
+
 public class Plat {
 	public String nomPlat;
 	public Type type;
@@ -21,6 +23,8 @@ public class Plat {
 		super();
 		this.nomPlat = nomPlat;
 		this.type = type;
+		connect();
+		insert(nomPlat);
 	}
 	public void AfficherPlat() {
 		
@@ -31,22 +35,25 @@ public class Plat {
         Connection conn = null;
         try {
             conn = DriverManager.getConnection(url);
+            System.out.print("OK");
         } catch (SQLException e) {
             System.out.println(e.getMessage());
         }
         return conn;
     }
-    public void insert(String name) {
-        String sql = "INSERT INTO plat(id_plat integer,nom text) VALUES(?,?)";
+    public void insert(String name,String type) {
+        String sql = "INSERT INTO plat(nom text,type text) VALUES(?,?)";
  
         try (Connection conn = this.connect();
                 PreparedStatement pstmt = conn.prepareStatement(sql)) {
             pstmt.setString(name);
+            pstmt.setString(type);
             pstmt.executeUpdate();
         } catch (SQLException e) {
             System.out.println(e.getMessage());
         }
-    public static main(args[] String) {
-    	insert(Love);
+    public static void main (Args[] String) {
+    	
     }
+
 }
