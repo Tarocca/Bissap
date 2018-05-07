@@ -5,7 +5,11 @@
 			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="lib" path="/root/Documents/GIT/plantuml.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry kind="lib" path="/root/Documents/GIT/sqlite-jdbc-3.21.0.jar"/>
-	<classpathentry kind="lib" path="/root/Téléchargements/plantuml-jar-epl-1.2018.4.zip"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

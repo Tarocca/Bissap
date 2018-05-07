@@ -1,10 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="Restaurant" company="ENSG" webLink="http://" view-date="2018-04-02" view-index="0" gantt-divider-location="300" resource-divider-location="300" version="2.8.6" locale="fr_FR">
-    <description><![CDATA[Projet de programmation scolaire sur la gestion de la cuisine d'une chaine de restaurant]]></description>
-    <view zooming-state="default:2" id="gantt-chart">
-        <field id="tpd3" name="Nom" width="167" order="0"/>
-        <field id="tpd4" name="Date de début" width="65" order="1"/>
-        <field id="tpd5" name="Date de fin" width="64" order="2"/>
-        <option id="color.recent"><![CDATA[#ff0000]]></option>
+<?xml version="1.0" encoding="UTF-8"?><project name="Restaurant" company="ENSG" webLink="http://" view-date="2018-04-02" view-index="0" gantt-divider-location="378" resource-divider-location="300" version="2.8.7" locale="fr_FR">
+    <description>
+        <![CDATA[Projet de programmation scolaire sur la gestion de la cuisine d'une chaine de restaurant]]>
+    </description>
+    <view zooming-state="default:3" id="gantt-chart">
+        <field id="tpd3" name="Nom" width="207" order="0"/>
+        <field id="tpd4" name="Date de début" width="77" order="1"/>
+        <field id="tpd5" name="Date de fin" width="90" order="2"/>
+        <option id="color.recent">
+            <![CDATA[#cc0000 #3300ff #ff0000 #6600ff #99ccff #00cc00]]>
+        </option>
     </view>
     <view id="resource-table">
         <field id="0" name="Nom" width="210" order="0"/>
@@ -34,18 +38,35 @@
             <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
             <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
         </taskproperties>
-        <task id="0" name="Analyse UML" color="#8cb6ce" meeting="false" start="2018-04-03" duration="7" complete="0" thirdDate="2018-04-02" thirdDate-constraint="0" expand="true"/>
-        <task id="5" name="Structure Base de donnée" color="#8cb6ce" meeting="false" start="2018-04-21" duration="2" complete="0" thirdDate="2018-04-21" thirdDate-constraint="0" expand="true"/>
-        <task id="10" name="Préparation des classes" color="#8cb6ce" meeting="false" start="2018-04-10" duration="4" complete="0" thirdDate="2018-04-02" thirdDate-constraint="0" expand="true"/>
-        <task id="11" name="Mise en place du GIT" meeting="false" start="2018-04-02" duration="1" complete="0" expand="true"/>
-        <task id="6" name="Vacances" color="#8cb6ce" meeting="false" start="2018-04-14" duration="7" complete="0" thirdDate="2018-04-02" thirdDate-constraint="0" expand="true"/>
-        <task id="3" name="Préparation" color="#ff0000" meeting="false" start="2018-04-03" duration="7" complete="0" thirdDate="2018-03-29" thirdDate-constraint="0" expand="true"/>
+        <task id="0" name="Analyse UML" color="#6600ff" meeting="false" start="2018-04-04" duration="7" complete="0" thirdDate="2018-04-04" thirdDate-constraint="0" expand="true"/>
+        <task id="5" name="Structure Base de donnée" color="#3300ff" meeting="false" start="2018-04-21" duration="7" complete="0" thirdDate="2018-04-21" thirdDate-constraint="0" expand="true"/>
+        <task id="10" name="Structure de classe" color="#3300ff" meeting="false" start="2018-04-10" duration="4" complete="0" thirdDate="2018-04-10" thirdDate-constraint="0" expand="true"/>
+        <task id="16" name="Ecriture des classes" color="#cc0000" meeting="false" start="2018-04-23" duration="7" complete="0" thirdDate="2018-04-23" thirdDate-constraint="0" expand="true"/>
+        <task id="11" name="Mise en place du GIT" color="#6600ff" meeting="false" start="2018-04-09" duration="1" complete="0" thirdDate="2018-04-09" thirdDate-constraint="0" expand="true"/>
+        <task id="12" name="Intégration SQL" color="#3300ff" meeting="false" start="2018-05-01" duration="16" complete="0" thirdDate="2018-05-01" thirdDate-constraint="0" expand="true"/>
+        <task id="13" name="Integration Graphique" color="#cc0000" meeting="false" start="2018-05-07" duration="10" complete="0" thirdDate="2018-05-07" thirdDate-constraint="0" expand="true"/>
+        <task id="6" name="Vacances" color="#00cc00" meeting="false" start="2018-04-14" duration="7" complete="0" thirdDate="2018-04-14" thirdDate-constraint="0" expand="true"/>
+        <task id="3" name="Préparation" color="#6600ff" meeting="false" start="2018-04-03" duration="7" complete="0" thirdDate="2018-04-03" thirdDate-constraint="0" expand="true"/>
     </tasks>
     <resources>
         <resource id="0" name="Claude" function="1" contacts="" phone=""/>
         <resource id="1" name="Priscillia" function="2" contacts="" phone=""/>
     </resources>
-    <allocations/>
+    <allocations>
+        <allocation task-id="0" resource-id="0" function="1" responsible="false" load="100.0"/>
+        <allocation task-id="16" resource-id="0" function="1" responsible="true" load="100.0"/>
+        <allocation task-id="11" resource-id="0" function="1" responsible="false" load="100.0"/>
+        <allocation task-id="13" resource-id="0" function="1" responsible="true" load="100.0"/>
+        <allocation task-id="6" resource-id="0" function="1" responsible="false" load="100.0"/>
+        <allocation task-id="3" resource-id="0" function="1" responsible="false" load="100.0"/>
+        <allocation task-id="0" resource-id="1" function="2" responsible="false" load="100.0"/>
+        <allocation task-id="5" resource-id="1" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="10" resource-id="1" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="11" resource-id="1" function="2" responsible="false" load="100.0"/>
+        <allocation task-id="12" resource-id="1" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="6" resource-id="1" function="2" responsible="false" load="100.0"/>
+        <allocation task-id="3" resource-id="1" function="2" responsible="false" load="100.0"/>
+    </allocations>
     <vacations/>
     <previous/>
     <roles roleset-name="Default"/>
